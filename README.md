@@ -38,7 +38,7 @@ DATABASES = {
 
     }
 }
-#导入初始数据
+导入初始数据
 $ mysql -uxx -p xx database < load.sql
 启动项目
 $ python manage.py runserver
